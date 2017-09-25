@@ -1,0 +1,73 @@
+body {
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.layout-row > md-content{
+	background: #ecf0f5 !important
+}
+
+md-list>a{
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+}
+
+.toolbar-sidnav{
+
+	font-size: small;
+}
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+    background-color: #333;
+}
+
+.site-sidenav, .site-sidenav.md-locked-open-add-active, .site-sidenav.md-locked-open {
+    width: 272px;
+    min-width: 272px;
+    max-width: 272px;
+    background: #333;
+}
+
+.site-sidenav>md-content{
+	color: #fff;
+	background: transparent;
+}
+
+.user-avatar{
+	border-radius: 99%;
+	width: 64px;
+	height: 64px;
+	background: green;
+}
+
+.navbar-user-label{
+	font-size: large;
+}
+
+.main-footer{
+	background: #fff;
+	padding: 15px;
+	color: #444;
+	border-top: 1px solid #d2d6de;
+	position: fixed;
+	bottom: 0;
+	width: 103rem;
+}
+
+.main-topbar{
+	background: #3c8dbc;
+	border: none;
+	width: 103rem;
+	z-index: 1000;
+	height: 50px;
+}
+
+.sidenav-button{
+	-webkit-text-fill-color: #fff;
+	border-radius: 50px;
+	min-width: 0;
+}

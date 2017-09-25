@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-cloak ng-app='timeApp'>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Titulo da Aplicacao</title>
+	<link rel="stylesheet" href="/assets/css/deps.min.css">
+	<link rel="stylesheet" href="/assets/css/app.min.css">
+</head>
+<body layout='column'>
+
+<div layout="row" ng-cloak flex>
+    <md-sidenav  ng-controller='sideNavCrtrl as snCtrl' class="hide-print ng-isolate-scope site-sidenav" md-component-id="left"
+        md-whiteframe="4" md-is-locked-open="$mdMedia('gt-md')" ng-include='"/template/menu/menu.html"'>
+    </md-sidenav>
+    <md-content flex layout-fill>
+      <header class='main-topbar layout-padding layout-align-start-center' layout="row" ng-include='"/template/header/header.html"'></header>
+      <div ui-view></div>
+      <footer layout="row" layout-align="space-between"
+      class="main-footer" layout-align-xs="cente center" ng-include='"/template/footer/footer.html"'></footer>
+    </md-content>
+</div>
+<script src="/assets/js/deps.min.js"></script>
+<script src="/assets/js/app.min.js"></script>
+</body>
+</html>
