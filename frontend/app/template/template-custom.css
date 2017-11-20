@@ -71,3 +71,8 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 	border-radius: 50px;
 	min-width: 0;
 }
+
+.main-topbar>h3{
+	color: #fff;
+	font-size:
+}
